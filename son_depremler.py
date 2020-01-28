@@ -2,11 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def clear_list(liste):
+def liste_olustur(metin):
+    liste = metin.split("\n")
     temp_list = list()
     for i in liste:
-        temp_deprem = i.strip('\r')
-        temp_list.append(temp_deprem)
+        temp_list.append(i.strip('\r'))
     temp_list.pop(501)
     temp_list.pop(500)
     return temp_list
@@ -33,13 +33,22 @@ class deprem():
 
         self.konum = deprem[71:son_karakter]
 
-def son_depremler():
+    def __str__(self):
 
-    r = requests.get('http://www.koeri.boun.edu.tr/scripts/lst0.asp')
+        return "Şiddet: {}\nSaat: {}\nDerinlik: {}\nKonum: {}".format(self.siddet, self.saat, self.derinlik, self.konum)
+
+
+def depremleri_yukle():
+    r = None
+    while r is None:
+        try:
+            r = requests.get('http://www.koeri.boun.edu.tr/scripts/lst0.asp')
+        except:
+            pass
+
     source = BeautifulSoup(r.content, 'html.parser')
     depremler_metin = source.find("pre").text[586:]
-    deprem_list = depremler_metin.split("\n")
-    deprem_list = clear_list(deprem_list)
+    deprem_list = liste_olustur(depremler_metin)
 
     deprem_dict = dict()
     for i in range(len(deprem_list)):
