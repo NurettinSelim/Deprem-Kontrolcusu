@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e94066e-cabd-4007-9ec8-70d73e3ea3e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anlik_deprem_kontrolu.py" beforeDir="false" afterPath="$PROJECT_DIR$/anlik_deprem_kontrolu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beep_sound.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/son_depremler.py" beforeDir="false" afterPath="$PROJECT_DIR$/deprem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +40,8 @@
       <recent name="D:\Python Projeleri\Deprem-Kontrol" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.beep_sound">
-    <configuration name="anlik_deprem_kontrolu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.anlik_deprem_kontrolu (1)">
+    <configuration name="anlik_deprem_kontrolu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deprem-Kontrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +53,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python Projeleri\Deprem-Kontrol\anlik_deprem_kontrolu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anlik_deprem_kontrolu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="beep_sound (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deprem-Kontrol" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beep_sound.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="son_depremler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deprem (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deprem-Kontrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +116,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/son_depremler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deprem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deprem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deprem-Kontrol" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Python Projeleri\Deprem-Kontrol\deprem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,9 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.beep_sound" />
-        <item itemvalue="Python.anlik_deprem_kontrolu" />
+        <item itemvalue="Python.anlik_deprem_kontrolu (1)" />
+        <item itemvalue="Python.deprem (1)" />
+        <item itemvalue="Python.beep_sound (1)" />
         <item itemvalue="Python.son_depremler" />
+        <item itemvalue="Python.beep_sound" />
       </list>
     </recent_temporary>
   </component>
@@ -136,29 +182,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1580076729944">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1580279625187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580076729944" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1580076729944">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580279625187" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1580279625187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580076729944" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1580076729944">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580279625187" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1580279625187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580076729944" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1580076729944">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580279625187" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1580279625187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580076729944" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580279625187" />
     <state x="313" y="85" key="SettingsEditor" timestamp="1580068020287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="313" y="85" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580068020287" />
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1580200949042">
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1580275765212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580200949042" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580275765212" />
   </component>
 </project>
